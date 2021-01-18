@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import net.md_5.bungee.api.plugin.Plugin;
 
-public class DataBaseAPI extends JavaPlugin{
+public class DataBaseAPI extends Plugin{
 	
 	private static DataBaseAPI instance;
 	private Connection connection;
